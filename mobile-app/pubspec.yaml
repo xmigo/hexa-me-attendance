@@ -1,0 +1,35 @@
+name: hexa_me_mobile
+description: Hexa-Me Attendance Management Mobile App
+publish_to: 'none'
+version: 1.0.4+5
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  http: ^1.1.0
+  dio: ^5.3.2
+  shared_preferences: ^2.2.2
+  local_auth: ^2.1.6
+  geolocator: ^10.1.0
+  google_maps_flutter: ^2.5.0
+  permission_handler: ^11.0.1
+  provider: ^6.1.1
+  intl: ^0.18.1
+  connectivity_plus: ^5.0.2
+  sqflite: ^2.3.0
+  path_provider: ^2.1.1
+  socket_io_client: ^2.0.3
+  # flutter_local_notifications: ^16.1.0  # Commented out due to build issues
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+

@@ -1,0 +1,80 @@
+╔══════════════════════════════════════════════════════════════╗
+║     SEE PROJECT IN ANDROID STUDIO - STEP BY STEP              ║
+╚══════════════════════════════════════════════════════════════╝
+
+📍 PROJECT LOCATION:
+   /Applications/XAMPP/xamppfiles/htdocs/Attendance/mobile-app
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+STEP 1: Close Android Studio (if open)
+──────────────────────────────────────
+  → Quit Android Studio completely
+
+STEP 2: Open Android Studio
+────────────────────────────
+  → Launch Android Studio
+
+STEP 3: Open Project
+────────────────────
+  → Click "Open" button (on welcome screen)
+  → OR File → Open (if already in Android Studio)
+
+STEP 4: Navigate to Project
+────────────────────────────
+  → Go to: /Applications/XAMPP/xamppfiles/htdocs/Attendance
+  → Select the "mobile-app" folder (NOT the Attendance folder)
+  → Click "OK"
+
+STEP 5: Wait for Detection
+───────────────────────────
+  → Android Studio will detect it as Flutter project
+  → Wait for indexing (1-2 minutes)
+  → Click "Get Dependencies" if prompted
+
+STEP 6: Check Project Panel
+────────────────────────────
+  → Look at LEFT SIDEBAR
+  → You should see:
+     • lib/
+     • android/
+     • pubspec.yaml
+     • etc.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🔧 IF YOU STILL DON'T SEE IT:
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+1. View → Tool Windows → Project
+   (This shows/hides the project panel)
+
+2. File → Invalidate Caches → Invalidate and Restart
+
+3. Check Flutter Plugin:
+   File → Settings → Plugins
+   Search "Flutter" → Install if missing
+
+4. Try opening from terminal:
+   cd /Applications/XAMPP/xamppfiles/htdocs/Attendance/mobile-app
+   open -a "Android Studio" .
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+✅ WHAT YOU SHOULD SEE:
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Left Sidebar (Project View):
+  mobile-app/
+    ├── android/
+    ├── lib/
+    │   ├── config/
+    │   ├── providers/
+    │   ├── screens/
+    │   └── main.dart
+    └── pubspec.yaml
+
+Top Bar:
+  → Run button (green play icon)
+  → Device selector
+

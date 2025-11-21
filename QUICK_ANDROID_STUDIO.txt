@@ -1,0 +1,38 @@
+╔══════════════════════════════════════════════════════════════╗
+║     OPEN IN ANDROID STUDIO - 3 SIMPLE STEPS                  ║
+╚══════════════════════════════════════════════════════════════╝
+
+STEP 1: Open in Android Studio
+────────────────────────────────
+1. Open Android Studio
+2. File → Open
+3. Select: /Applications/XAMPP/xamppfiles/htdocs/Attendance/mobile-app
+4. Click OK
+
+STEP 2: Make Sure Backend is Running
+─────────────────────────────────────
+In Terminal:
+  cd backend
+  npm run dev
+
+STEP 3: Run the App
+───────────────────
+In Android Studio:
+1. Click Run button (green play icon)
+2. Select device/emulator
+3. App will install and open
+
+LOGIN:
+  Email: admin@hexa-me.com
+  Password: admin123
+
+DASHBOARD WILL SHOW:
+  ✓ Check-in status
+  ✓ Working hours
+  ✓ Check-in/out button
+  ✓ Beautiful UI
+
+✅ API URL is already set for Android Emulator (10.0.2.2)
+
+That's it! The dashboard will appear after login.
+
